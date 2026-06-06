@@ -32,7 +32,7 @@ function App() {
     }
     if (currentPage.startsWith('ending')) {
       return <ContentPage 
-        title="Ending" 
+        title="마치며" 
         type={currentPage} 
         onBack={() => setCurrentPage('home')} 
         onNavigate={setCurrentPage}

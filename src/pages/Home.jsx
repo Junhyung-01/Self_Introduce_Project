@@ -5,7 +5,7 @@ const Home = ({ onNavigate }) => {
     { id: 'identity1', title: '나는 어떤 사람인가?', subtitle: '정체성과 가치관', color: 'var(--accent-gold)' },
     { id: 'change1', title: '변화', subtitle: '성장과 도전의 과정', color: 'var(--accent-blue)' },
     { id: 'present1', title: '현재', subtitle: '지금 내가 꿈꾸는 것', color: '#ff4b2b' },
-    { id: 'ending1', title: 'Ending', subtitle: '미래를 향한 다짐', color: '#a100ff' },
+    { id: 'ending1', title: '마치며', subtitle: '미래를 향한 다짐', color: '#a100ff' },
   ];
 
   return (
@@ -17,11 +17,7 @@ const Home = ({ onNavigate }) => {
         </p>
       </header>
 
-      <div className="grid" style={{ 
-        display: 'grid', 
-        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 
-        gap: '2rem' 
-      }}>
+      <div className="grid">
         {sections.map((section, index) => (
           <div 
             key={section.id}
