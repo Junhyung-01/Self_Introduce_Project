@@ -11,9 +11,9 @@ const Home = ({ onNavigate }) => {
   return (
     <div className="container" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '4rem 2rem' }}>
       <header className="fade-in" style={{ textAlign: 'center', marginBottom: '5rem' }}>
-        <h1 style={{ fontSize: '3.5rem', marginBottom: '1rem', letterSpacing: '-1px' }}>Personal Narrative</h1>
+        <h1 style={{ fontSize: '3.5rem', marginBottom: '1rem', letterSpacing: '-1px' }}>내 삶의 주체가 된다는 것</h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto' }}>
-          저의 삶과 성장, 그리고 현재를 담은 디지털 팸플릿입니다.<br/>아래의 키워드를 통해 저를 더 깊이 알아가 보세요.
+          청년의 언어, 자기서사의 테크네 - 2020112128 최준형
         </p>
       </header>
 
