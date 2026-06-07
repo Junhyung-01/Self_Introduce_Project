@@ -2,11 +2,18 @@ import React from 'react';
 import identityImg from '../assets/identity.png';
 import changeImg from '../assets/change.png';
 import presentImg from '../assets/present.png';
+import heroImg from '../assets/hero.png';
+import Img1 from '../assets/1.png';
+import Img2 from '../assets/2.png';
+import Img3 from '../assets/3.png';
+import Img4 from '../assets/4.png';
+import Img5 from '../assets/5.png';
+import Img6 from '../assets/6.png';
 
 const ContentPage = ({ title, type, onBack, onNavigate }) => {
   const contentMap = {
     identity1: {
-      image: identityImg,
+      image: Img5,
       subtitle: 'Who am I? - 1',
       text: [
         '어린 시절부터 저는 부모님 혹은 주변 지인들에게 굉장히 의존을 많이 하는 성격이였습니다. 부모님이 시키시는 일만 하고, 주변 지인들이 부탁하는 일만 하면 아무 문제없이 살아올 수 있었고, 되려 이렇게 큰 굴곡없이 무난했던 삶이 저를 수동적인 인간으로 만들었습니다'
@@ -15,7 +22,7 @@ const ContentPage = ({ title, type, onBack, onNavigate }) => {
       prevPage: null
     },
     identity2: {
-      image: identityImg,
+      image: Img1,
       subtitle: 'Who am I? - 2',
       text: [
         '물론 처음부터 이런 성격은 아니였습니다. 어린 시절의 저는 친구들과 노는 것을 좋아하고 저 스스로 무언가를 성취하는 것을 좋아했던 때도 있었습니다.',
@@ -26,7 +33,7 @@ const ContentPage = ({ title, type, onBack, onNavigate }) => {
       prevPage: 'identity1'
     },
     identity3: {
-      image: identityImg,
+      image: Img1,
       subtitle: 'Who am I? - 3',
       text: [
         '진짜 문제는 저렇게 갈등이 심화되어도 결국 부모님의 의견을 따라야 하는 상황이 된다는 것이였습니다. 이런 갈등을 반복하다보니 결국 저는 부모님과 대립하는 것을 포기했고, 감정소모 할 일 없이 부모님이 시키는 대로 사는 것이 편하다는 것을 알게 되었습니다.',
@@ -36,7 +43,7 @@ const ContentPage = ({ title, type, onBack, onNavigate }) => {
       prevPage: 'identity2'
     },
     change1: {
-      image: changeImg,
+      image: Img3,
       subtitle: 'Growth and Transformation - 1',
       text: [
         '동국대학교에 입학한 뒤에도 저는 여전히 "부모님이 시키시는 대로만 하자. 그러면 큰 문제없이 편하게 살 수 있을 것이다." 라는 생각을 갖고있었습니다. 그렇게 2학년 1학기까지 보낸 시점에 저는 입대를 하게됩니다.',
@@ -46,7 +53,7 @@ const ContentPage = ({ title, type, onBack, onNavigate }) => {
       prevPage: null
     },
     change2: {
-      image: changeImg,
+      image: Img2,
       subtitle: 'Growth and Transformation - 2',
       text: [
         '처음에는 그저 밖에서 무슨 일을 하다 왔었는지와 같은 단순한 얘기들만 나눴지만 그렇게 다 같이 1년을 지내다보니 동기들끼리 서로에 대해 많이 알게 되었습니다. 그리고 그 형이 우리나라에서 100명도 채 갖고있지 않은 기술사 자격증을 준비하고 있고, 만약 그 자격증을 취득한다면 해당 분야에서 최연소 기술사 타이틀을 갖게된다는 사실과 추후에 아버지의 사업을 물려받는다는 사실을 알게 되었습니다. 그 형의 상황에 대해 듣고나니 문득 저와 비교를 하게 되었습니다.',
@@ -56,7 +63,7 @@ const ContentPage = ({ title, type, onBack, onNavigate }) => {
       prevPage: 'change1'
     },
     change3: {
-      image: changeImg,
+      image: Img2,
       subtitle: 'Growth and Transformation - 3',
       text: [
         '그렇게 시간이 지나 그 형은 외출을 쓰고 시험을 보러 갔고, 결국 해당 분야에서 국내 최연소 기술사라는 타이틀을 차지했습니다. 그런 일을 겪고 시간이 지나 전역일이 다가올수록 제 미래에 대해 생각이 깊어져갔고, 그 답을 찾기 위해 저는 지난 제 삶을 돌아보기 시작했습니다. 그리고 저는 그 답이 본인의 삶을 대하는 태도에 있다는 사실을 깨달았습니다.',
@@ -66,7 +73,7 @@ const ContentPage = ({ title, type, onBack, onNavigate }) => {
       prevPage: 'change2'
     },
     present1: {
-      image: presentImg,
+      image: heroImg,
       subtitle: 'The Present and Future - 1',
       text: [
         '제대 후 저는 처음으로 타인이 추천하거나 시키는 것이 아닌, 저 스스로의 선택으로 부트캠프를 수강하게 되었습니다. 제 진로에 대한 고민이 깊어지며 무엇을 하며 살아가야 할까 막연하던 즈음, 우연히 눈에 들어온 "클라우드 인프라 부트캠프"에 관심이 생겼고, 고민하다가 신청하게 되었습니다.',
@@ -76,7 +83,7 @@ const ContentPage = ({ title, type, onBack, onNavigate }) => {
       prevPage: null
     },
     present2: {
-      image: presentImg,
+      image: Img6,
       subtitle: 'The Present and Future - 2',
       text: [
         '부트캠프는 월화수목금 아침 9사부터 저녁 6시까지 진행되는 강행군이였습니다. 하지만 저 스스로 선택한 것이고, 이보다 더 어릴 때도 하루에 12시간씩 학원에 다녔던 터라 후회는 없었습니다.',
@@ -86,7 +93,7 @@ const ContentPage = ({ title, type, onBack, onNavigate }) => {
       prevPage: 'present1'
     },
     ending1: {
-      image: presentImg,
+      image: Img4,
       subtitle: '마치며',
       text: [
         '작품 데미안에서는 싱클레어가 행복한 부모님의 그늘 아래에서 지내다가 크로머와 엮이며 어두운 세계에 들어가게 되지만, 데미안을 만나고 도움을 받아 어둠에서 벗어나게 됩니다. 저도 동기 형을 만나며 알을 깨고 나올 수 있게 되었기 때문에 이 부분에서 저의 서사가 주인공 싱클레어와 매우 유사하다고 생각했습니다.',
